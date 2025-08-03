@@ -17,5 +17,27 @@
         </div>
         <h1 class="studio-name">Hair in Mouth Studios</h1>
     </div>
+    
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const video = document.querySelector('video');
+    
+    // Try to play immediately
+    video.play().catch(function(error) {
+        console.log('Autoplay failed:', error);
+    });
+    
+    // Force play on any user interaction
+    document.addEventListener('touchstart', function() {
+        video.play();
+    }, { once: true });
+    
+    document.addEventListener('click', function() {
+        video.play();
+    }, { once: true });
+});
+</script>
 </body>
 </html>
+
+
