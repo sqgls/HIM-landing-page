@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #f5f5dc; /* Papery beige to match sketch background */
+    background-color: #fffff3; /* Papery beige to match sketch background */
     font-family: 'Kalam', cursive; /* Hand-written looking font */
     height: 100vh;
     display: flex;
