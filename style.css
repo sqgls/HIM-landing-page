@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #fefef1; /* Exact match to video background from Canva */
+    background-color: #fffff3; /* Exact match to video background from Canva */
     font-family: 'Caveat', cursive; /* More sketchy handwriting font */
     height: 100vh;
     display: flex;
@@ -24,7 +24,7 @@ body {
     /* Removed border-radius, overflow, and box-shadow for flat look */
 }
 
-video {
+.animation {
     width: 100%;
     max-width: 500px;
     height: auto;
@@ -61,7 +61,7 @@ video {
         font-size: 2rem;
     }
     
-    video {
+    .animation {
         max-width: 90vw;
     }
 }
