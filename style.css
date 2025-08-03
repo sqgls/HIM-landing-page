@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: #fffff3; /* Papery beige to match sketch background */
-    font-family: 'Kalam', cursive; /* Hand-written looking font */
+    background-color: #fffff3; /* Exact match to video background from Canva */
+    font-family: 'Kalam', cursive;
     height: 100vh;
     display: flex;
     align-items: center;
