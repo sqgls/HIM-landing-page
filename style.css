@@ -6,7 +6,7 @@
 
 body {
     background-color: #fefef1; /* Exact match to video background from Canva */
-    font-family: 'Kalam', cursive;
+    font-family: 'Caveat', cursive; /* More sketchy handwriting font */
     height: 100vh;
     display: flex;
     align-items: center;
@@ -21,9 +21,7 @@ body {
 
 .video-container {
     margin-bottom: 2rem;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    /* Removed border-radius, overflow, and box-shadow for flat look */
 }
 
 video {
@@ -34,12 +32,27 @@ video {
 }
 
 .studio-name {
-    font-size: 3rem;
-    color: #2c2c2c;
+    font-size: 3.5rem;
+    color: #1a1a1a;
     font-weight: 700;
-    letter-spacing: 1px;
-    text-shadow: 1px 1px 0px rgba(0,0,0,0.1);
-    transform: rotate(-1deg); /* Slight hand-drawn tilt */
+    letter-spacing: 2px;
+    transform: rotate(-0.5deg); /* Slight hand-drawn tilt */
+    animation: gentle-wave 4s ease-in-out infinite;
+}
+
+@keyframes gentle-wave {
+    0%, 100% { 
+        transform: rotate(-0.5deg) translateY(0px);
+    }
+    25% { 
+        transform: rotate(0.3deg) translateY(-2px);
+    }
+    50% { 
+        transform: rotate(-0.2deg) translateY(1px);
+    }
+    75% { 
+        transform: rotate(0.4deg) translateY(-1px);
+    }
 }
 
 /* Mobile responsive */
