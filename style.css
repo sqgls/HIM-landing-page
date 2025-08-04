@@ -47,8 +47,8 @@ body {
 
 .heart-icon {
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     bottom: -45px;
     right: -20px;
     transform: rotate(5deg);
