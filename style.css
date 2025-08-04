@@ -40,6 +40,31 @@ body {
     animation: gentle-wave 4s ease-in-out infinite;
 }
 
+.title-section {
+    position: relative;
+    display: inline-block;
+}
+
+.heart-icon {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: -10px;
+    right: -70px;
+    transform: rotate(5deg);
+    opacity: 0.8;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .heart-icon {
+        width: 40px;
+        height: 40px;
+        right: -50px;
+        bottom: -5px;
+    }
+}
+
 @keyframes gentle-wave {
     0%, 100% { 
         transform: rotate(-0.5deg) translateY(0px);
