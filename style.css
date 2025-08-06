@@ -51,7 +51,7 @@ body {
     width: 20px;
     height: 20px;
     bottom: 22px;
-    right: -20px;
+    right: -22px;
     transform: rotate(5deg);
     opacity: 0.8;
 }
@@ -61,7 +61,7 @@ body {
     .heart-icon {
         width: 20px;
         height: 20px;
-        right: -20px;
+        right: -22px;
         bottom: 22px;
     }
 }
