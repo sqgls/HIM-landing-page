@@ -49,7 +49,7 @@ body {
     position: absolute;
     width: 20px;
     height: 20px;
-    bottom: -45px;
+    bottom: 25px;
     right: -20px;
     transform: rotate(5deg);
     opacity: 0.8;
@@ -61,7 +61,7 @@ body {
         width: 20px;
         height: 20px;
         right: -20px;
-        bottom: -40px;
+        bottom: 25px;
     }
 }
 
